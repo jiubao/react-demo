@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./scripts/dev.js",
     "build": "node ./scripts/build.js",
+    "bs": "node ./scripts/build-simple.js",
     "test": "node ./scripts/test.js"
   },
   "author": "dong.xia",
@@ -25,6 +26,7 @@
     "chalk": "^3.0.0",
     "css-loader": "^3.4.2",
     "file-loader": "^5.0.2",
+    "fs-extra": "^8.1.0",
     "html-webpack-plugin": "^4.0.0-beta.11",
     "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.9.0",

@@ -404,7 +404,7 @@ module.exports = {
       chunkFilename: 'static/css/[name].[contenthash:8].chunk.css',
     }),
 
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
   ],
   
   resolve: {
